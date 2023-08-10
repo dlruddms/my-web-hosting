@@ -1,1 +1,15 @@
-body{background-color: beige;}
+button {
+    background-color : blue;
+    box-sizing: content-box;
+    border-width: medium;
+    border-style: none;
+    border-color:blue;
+    border-radius: 80px / 80px;
+    font-size: xx-large;
+    color:aliceblue;
+}
+
+
+.clicked {
+    background-color : red
+}
