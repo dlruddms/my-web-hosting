@@ -6,14 +6,22 @@
     <link rel="stylesheet" href="style.css" />
     <title>Momentum App</title>
   </head>
-  <body>
+  <body>  
     <form id="login-form">
-      <input type="text" 
+       <img
+      src="https://item.kakaocdn.net/do/a1866850b14ae47d0a2fd61f409dfc057154249a3890514a43687a85e6b6cc82"
+       alt="루피 사진"
+      >
+      <p>
+    <input 
+      type="text" 
       name="username" 
       id="username-field" 
       class="login-form-field" 
       placeholder="Id">
-     <input type="password" 
+      <p>
+     <input 
+        type="password" 
         name="password" 
         id="password-field" 
         class="login-form-field" 
@@ -22,7 +30,12 @@
         value="Login" 
         id="login-form-submit">
     </form>
-    <h1 id="greeting" class="hidden"></h1>
-    <script src="script.js"></script>
+    <h2 id = "clock" class = "hidden">00:00:00></h2>
+    <script src="challenge.js"></script>
+    <script src="clock.js"></script>
+    <script src="background.js"></script>
+
+
+
   </body>
 </html>
